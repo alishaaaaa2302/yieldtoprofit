@@ -4,7 +4,7 @@ import joblib
 import os
 
 BASE_DIR  = os.path.dirname(os.path.abspath(__file__))
-DATA_DIR  = os.path.join(BASE_DIR, 'data')
+DATA_DIR = os.path.join(BASE_DIR, 'Data')
 MODEL_DIR = os.path.join(BASE_DIR, 'model')
 
 # ── Load model, scaler and encoders ──────────────────────────────────────────
